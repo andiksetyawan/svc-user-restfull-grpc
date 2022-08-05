@@ -64,5 +64,6 @@ reponse:
   - [ ] Log agent & agregator ELK 
 - [ ] grpc integration test
 - [ ] Dockerfile
+- [ ] Makefile for test, build etc.
 - [ ] proto to openapi spec (swagger UI)
 - [ ] moreee :D
