@@ -10,7 +10,7 @@
 
 1. [Go](https://golang.org/doc/install) 1.18+
 2. [PosgreSQL](https://www.postgresql.org/download/) server
-3. [Docker](https://golang.org/doc/install) for database testing with [testcontainer](https://www.testcontainers.org/) 
+3. [Docker](https://docs.docker.com/engine/install/) for database testing with [testcontainer](https://www.testcontainers.org/) 
 4. [Buf](https://docs.buf.build/introduction) for generating the grpc stubs
 5. [protoc-gen-go](#), [protoc-gen-go-grpc](%), [](),
 
@@ -51,6 +51,11 @@ localhost:9998 user.v1.UserService/Create
 reponse:
 ```
 {"message": "OK"}
+```
+
+#### Make test:
+```
+go test ./...
 ```
 ## Documentation
 ### Todo:
